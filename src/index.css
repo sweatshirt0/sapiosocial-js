@@ -182,7 +182,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 700px) {
 	.form-wrapper {
 		display: flex;
 		top: 30vh;
