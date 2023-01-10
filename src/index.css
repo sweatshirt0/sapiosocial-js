@@ -182,6 +182,22 @@ body {
 	}
 }
 
+@media screen and (max-width: 870px) {
+	.form-wrapper {
+		display: flex;
+		top: 35vh;
+		left: 5vw;
+		padding-left: 15px;
+		width: 400px;
+		overflow: hidden;
+	}
+
+	.home-content-wrapper {
+		margin-top: -150px;
+		left: 11vw;
+	}
+}
+
 @media screen and (min-height: 850px) {
 	.home-content-wrapper {
 		top: 25vh;
