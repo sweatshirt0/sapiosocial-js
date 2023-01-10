@@ -1,13 +1,170 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #f0f2f5;
+	overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-wrapper {
+	position: relative;
+	background-color: skyblue;
+	padding: 15px;
+	overflow: hidden;
+}
+
+.nav-wrapper a {
+	text-decoration: none;
+	color: #111;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.nav-wrapper a:hover {
+	text-decoration: underline;
+}
+
+.form-wrapper {
+	position: relative;
+	left: 50vw;
+	background-color: #fff;
+	width: 425px;
+	border-radius: 10px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	box-shadow: 5px 5px 5px lightgrey;
+}
+
+.home-content-wrapper {
+	position: relative;
+	top: 30vh;
+	left: 5vw;
+	width: 375px;
+	padding: 15px;
+}
+
+.home-content {
+	font-size: 1.3rem;
+}
+
+.username {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+	padding: 12px 15px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+}
+
+.username:focus {
+	outline: 1px solid skyblue;
+}
+
+.password {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px 15px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+}
+
+.password:focus {
+	outline: 1px solid skyblue;
+}
+
+.submit {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px 15px;
+	border: 1px solid lightgrey;
+	background-color: skyblue;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+	color: #111;
+	font-weight: bold;
+}
+
+.submit:hover {
+	cursor: pointer;
+	box-shadow: 5px 5px 5px #90EE90;
+}
+
+.signup-button {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px 15px;
+	border: 1px solid lightgrey;
+	background-color: #90EE90;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+	color: #111;
+	font-weight: bold;
+	padding-left: auto;
+	padding-right: auto;
+	justify-content: center;
+}
+
+.signup-button:hover {
+	box-shadow: 5px 5px 5px skyblue;
+	cursor: pointer;
+}
+
+.signup-link {
+	text-decoration: none;
+	color: #111;
+}
+
+.divider {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 1px;
+	background-color: lightgrey;
+	width: 375px;
+}
+
+.news-content-wrapper {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	background-color: #fff;
+	margin-top: 30px;
+	width: 95vw;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 5px lightgrey;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.news-content {
+	position: relative;
+}
+
+.contact-wrapper {
+	position: relative;
+	left: 6vw;
+	top: 15vh;
+	margin-top: -100px;
+}
+
+.contact-divider {
+	position: relative;
+	padding: 1px;
+	background-color: grey;
+	height: 13vh;
+	width: 1px;
+	top: 17vh;
+	left: 4.5vw;
+	margin-right: 20px;
 }
