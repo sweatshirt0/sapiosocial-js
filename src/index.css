@@ -186,7 +186,7 @@ body {
 	.form-wrapper {
 		display: flex;
 		top: 35vh;
-		left: 0px;
+		left: 5vw;
 		padding-left: 15px;
 		width: 350px;
 		overflow: hidden;
@@ -198,6 +198,18 @@ body {
 
 	.password {
 		width: 250px;
+	}
+
+	.submit {
+		width: 250px;
+	}
+
+	.signup-button {
+		width: 250px;
+	}
+
+	.divider {
+		width: 300px;
 	}
 
 	.home-content-wrapper {
