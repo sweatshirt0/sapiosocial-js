@@ -186,7 +186,7 @@ body {
 	.form-wrapper {
 		display: flex;
 		top: 35vh;
-		left: 5vw;
+		left: 2vw;
 		padding-left: 15px;
 		width: 350px;
 		overflow: hidden;
@@ -202,6 +202,7 @@ body {
 
 	.submit {
 		width: 250px;
+		text-align: center;
 	}
 
 	.signup-button {
