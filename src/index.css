@@ -185,7 +185,7 @@ body {
 @media screen and (max-width: 870px) {
 	.form-wrapper {
 		display: flex;
-		top: 35vh;
+		top: 30vh;
 		left: 2vw;
 		padding-left: 15px;
 		width: 350px;
@@ -203,10 +203,13 @@ body {
 	.submit {
 		width: 250px;
 		justify-content: center;
+		border-radius: 5px;
+		padding: 15px;
 	}
 
 	.signup-button {
 		width: 250px;
+		padding: 15px;
 	}
 
 	.divider {
