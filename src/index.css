@@ -168,3 +168,22 @@ body {
 	left: 4.5vw;
 	margin-right: 20px;
 }
+
+@media screen and (min-width: 1270px) {
+	.home-content-wrapper {
+		left: 22vw;
+	}
+}
+
+@media screen and (min-width: 1900px) {
+	.form-wrapper {
+		top: 8vh;
+		left: 48vw;
+	}
+}
+
+@media screen and (min-height: 850px) {
+	.home-content-wrapper {
+		top: 25vh;
+	}
+}
