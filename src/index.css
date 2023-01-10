@@ -186,10 +186,18 @@ body {
 	.form-wrapper {
 		display: flex;
 		top: 35vh;
-		left: 5vw;
+		left: 0px;
 		padding-left: 15px;
-		width: 400px;
+		width: 350px;
 		overflow: hidden;
+	}
+
+	.username {
+		width: 250px;
+	}
+
+	.password {
+		width: 250px;
 	}
 
 	.home-content-wrapper {
