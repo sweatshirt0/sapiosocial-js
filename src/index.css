@@ -174,7 +174,117 @@ body {
 	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-top: 2px;
+	box-shadow: 10px 10px 10px lightgrey;
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+}
+
+.register-wrapper {
+	position: relative;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	top: 10vh;
+	width: 475px;
 	box-shadow: 5px 5px 5px lightgrey;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+.username-register {
+	display: flex;
+	padding: 12px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+}
+
+.email-register {
+	display: flex;
+	padding: 12px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+}
+
+.password-register {
+	display: flex;
+	padding: 12px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+}
+
+.password-register-confirm {
+	display: flex;
+	padding: 12px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+}
+
+.register-button {
+	display: flex;
+	padding: 12px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	background-color: #90EE90;
+	width: 350px;
+	font-weight: bold;
+}
+
+.login-link-button {
+	display: flex;
+	padding: 12px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	background-color: skyblue;
+	width: 350px;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.login-link {
+	display: flex;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	color: #111;
+}
+
+.login-link-button:hover {
+	cursor: pointer;
+	box-shadow: 5px 5px 5px #90EE90;
+}
+
+.register-button:hover {
+	cursor: pointer;
+	box-shadow: 5px 5px 5px skyblue;
+}
+
+.register-title {
+	text-align: center;
 }
 
 @media screen and (min-width: 1270px) {

@@ -9,7 +9,7 @@ const Login = () => {
 				<input type="password" class="password" name="password" placeholder="Password" /><br /><br />
 				<input type="submit" class="submit" value="login" name="submit" />
 				<Divider />
-				<button class="signup-button"><a class="signup-link" href="/">Sign up</a></button>
+				<button class="signup-button"><a class="signup-link" href="/register">Sign up</a></button>
 			</form>
 		</div>
 	);
