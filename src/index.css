@@ -342,6 +342,34 @@ body {
 	.footer-wrapper {
 		bottom: -50vh;
 	}
+
+	.register-wrapper {
+		width: 300px;
+	}
+
+	.username-register {
+		width: 225px;
+	}
+
+	.email-register {
+		width: 225px;
+	}
+
+	.password-register {
+		width: 225px;
+	}
+
+	.password-register-confirm {
+		width: 225px;
+	}
+
+	.register-button {
+		width: 225px;
+	}
+
+	.login-link-button {
+		width: 225px;
+	}
 }
 
 @media screen and (min-height: 850px) {
