@@ -345,6 +345,7 @@ body {
 
 	.register-wrapper {
 		width: 300px;
+		top: 8px;
 	}
 
 	.username-register {
