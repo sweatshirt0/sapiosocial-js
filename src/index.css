@@ -298,6 +298,12 @@ body {
 	.home-content-wrapper {
 		left: 22vw;
 	}
+
+	.footer-wrapper {
+		position: absolute;
+		bottom: 0px;
+		width: 98.5vw;
+	}
 }
 
 @media screen and (min-width: 1900px) {
