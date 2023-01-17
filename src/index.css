@@ -287,6 +287,13 @@ body {
 	text-align: center;
 }
 
+.date {
+	display: flex;
+	float: right;
+	margin: 0px;
+	font-size: 1.2rem;
+}
+
 @media screen and (min-width: 1270px) {
 	.home-content-wrapper {
 		left: 22vw;
